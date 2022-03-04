@@ -1,6 +1,6 @@
 name: update
 
-on: push
+on: [push, schedule]
   schedule:
   - cron: "* * * * 1-5"
 
